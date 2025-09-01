@@ -1,1 +1,2 @@
-# loadtest_with_k6
+# Installation
+
