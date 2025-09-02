@@ -11,7 +11,7 @@ Install k6 as a development dependency via **npm**:
 ```bash
 npm install --save-dev k6
 
-## ▶️ Running a Test
+▶️ Running a Test
 
 npx k6 run loadtest.js
 
