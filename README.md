@@ -1,13 +1,17 @@
-# Installation
+# k6 Load Testing
 
-# Install via npm
+This project uses [k6](https://k6.io/) for load testing to validate performance and reliability.  
 
+---
+
+## 📦 Installation
+
+Install k6 as a development dependency via **npm**:
+
+```bash
 npm install --save-dev k6
 
-# Execute K6 script
+## ▶️ Running a Test
 
 npx k6 run loadtest.js
-
-
-
 
