@@ -5,10 +5,10 @@ export let options = {
   scenarios: {
     webhook_highnote_test: {
       executor: 'constant-arrival-rate',
-      rate: 2,           // 100 requests per minute
+      rate: 100,           // 100 requests per minute
       timeUnit: '1m',
-      duration: '2m',      // run for 5 minutes
-      preAllocatedVUs: 5, // pre-allocate 20 virtual users
+      duration: '5m',      // run for 5 minutes
+      preAllocatedVUs: 5, // pre-allocate 5 virtual users
       maxVUs: 5,
     },
   },
